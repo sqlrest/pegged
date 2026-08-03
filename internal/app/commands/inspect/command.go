@@ -41,6 +41,7 @@ func Command() *cli.Command {
 			&cli.Uint16Flag{
 				Name:        portFlag,
 				Sources:     cli.EnvVars(envPrefix+"PORT", "PGPORT"),
+				Value:       0,
 				Usage:       "Host port to inspect (alternative to the positional argument)",
 				Destination: (*uint16)(&cfg.Port),
 			},

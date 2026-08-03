@@ -44,12 +44,14 @@ func Command() *cli.Command {
 			&cli.Uint16Flag{
 				Name:        portFlag,
 				Sources:     cli.EnvVars(envPrefix+"PORT", "PGPORT"),
+				Value:       0,
 				Usage:       "Host port to snapshot (alternative to the positional argument)",
 				Destination: (*uint16)(&cfg.Port),
 			},
 			&cli.StringFlag{
 				Name:        copyImageFlag,
 				Sources:     cli.EnvVars(envPrefix + "COPY_IMAGE"),
+				Value:       "",
 				Usage:       "Helper image for the volume copy (default: the source's recorded image)",
 				Destination: (*string)(&cfg.CopyImage),
 			},

@@ -43,18 +43,21 @@ func Command() *cli.Command {
 			&cli.Uint16Flag{
 				Name:        portFlag,
 				Sources:     cli.EnvVars(envPrefix+"PORT", "PGPORT"),
+				Value:       0,
 				Usage:       "Host port of the instance (alternative to the positional argument)",
 				Destination: (*uint16)(&cfg.Port),
 			},
 			&cli.StringFlag{
 				Name:        retainFlag,
 				Sources:     cli.EnvVars(envPrefix + "RETAIN"),
+				Value:       "",
 				Usage:       "Volume retention: keep or remove (default follows the recorded choice, then the port policy)",
 				Destination: (*string)(&cfg.Retain),
 			},
 			&cli.IntFlag{
 				Name:        graceFlag,
 				Sources:     cli.EnvVars(envPrefix + "GRACE"),
+				Value:       0,
 				Usage:       "Shutdown grace period in seconds (default 10)",
 				Destination: (*int)(&cfg.Grace),
 			},
