@@ -3,11 +3,11 @@ module github.com/sqlrest/pegged
 go 1.26.4
 
 require (
-	github.com/gomatic/go-app v0.6.9
-	github.com/gomatic/go-docker v0.4.0
-	github.com/gomatic/go-error v0.3.13
+	github.com/gomatic/go-app v0.7.1
+	github.com/gomatic/go-docker v0.4.1
+	github.com/gomatic/go-error v0.3.14
 	github.com/gomatic/go-log v0.3.12
-	github.com/gomatic/go-pgdocker v0.7.0
+	github.com/gomatic/go-pgdocker v0.7.1
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli/v3 v3.10.1
 )
