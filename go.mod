@@ -3,18 +3,18 @@ module github.com/sqlrest/pegged
 go 1.26.4
 
 require (
-	github.com/gomatic/go-app v0.7.1
-	github.com/gomatic/go-docker v0.4.1
-	github.com/gomatic/go-error v0.3.14
-	github.com/gomatic/go-log v0.3.12
-	github.com/gomatic/go-pgdocker v0.7.1
+	github.com/gomatic/go-app v0.7.3
+	github.com/gomatic/go-docker v0.4.3
+	github.com/gomatic/go-error v0.3.15
+	github.com/gomatic/go-log v0.3.13
+	github.com/gomatic/go-pgdocker v0.7.3
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli/v3 v3.10.1
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/gomatic/go-output v0.3.15 // indirect
+	github.com/gomatic/go-output v0.3.19 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
