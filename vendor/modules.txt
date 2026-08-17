@@ -1,22 +1,22 @@
 # github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/gomatic/go-app v0.7.1
+# github.com/gomatic/go-app v0.7.3
 ## explicit; go 1.26.4
 github.com/gomatic/go-app
-# github.com/gomatic/go-docker v0.4.1
+# github.com/gomatic/go-docker v0.4.3
 ## explicit; go 1.26.4
 github.com/gomatic/go-docker
-# github.com/gomatic/go-error v0.3.14
+# github.com/gomatic/go-error v0.3.15
 ## explicit; go 1.26.4
 github.com/gomatic/go-error
-# github.com/gomatic/go-log v0.3.12
+# github.com/gomatic/go-log v0.3.13
 ## explicit; go 1.26.4
 github.com/gomatic/go-log
-# github.com/gomatic/go-output v0.3.15
+# github.com/gomatic/go-output v0.3.19
 ## explicit; go 1.26.4
 github.com/gomatic/go-output
-# github.com/gomatic/go-pgdocker v0.7.1
+# github.com/gomatic/go-pgdocker v0.7.3
 ## explicit; go 1.26.4
 github.com/gomatic/go-pgdocker
 # github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
